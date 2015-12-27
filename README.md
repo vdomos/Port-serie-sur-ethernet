@@ -25,7 +25,7 @@ Par exemple sur un Raspberry-Pi B. Le port du modem étant /dev/ttyACM0 et 2300 
 
 Dans mon exemple sur VM Domogik:
 
-    ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
+    ./remserial -d -r hostname-ou-@IP_rpi -p 23000 -l /dev/modem /dev/ptmx &
     
     
 * Test du modem
