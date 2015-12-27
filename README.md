@@ -33,6 +33,16 @@ Dans mon exemple sur VM Domogik:
 Le "user" utlisant le modem  doit appartenir au groupe 'tty'
 
     $ picocom -b 19200 -d 8 -f n -p n /dev/modem
+    picocom v1.7
+    port is        : /dev/modem
+    flowcontrol    : none
+    baudrate is    : 19200
+    ...
+    Terminal ready
+    ATZ
+    OK
+    ATI3
+    CX93001-EIS_V0.2002-V92
 
 * Sous domogik
 
