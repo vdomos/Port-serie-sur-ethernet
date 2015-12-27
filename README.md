@@ -13,14 +13,16 @@ Exemple d'usage
 Expmple d'utilisation avec un modem série utlisé par le plugin domogik  **callerid** https://github.com/fritz-smh/domogik-plugin-callerid
 
 
-* Sur le serveur relié au modem par exmple un Raspberry-Pi B
+* Sur le serveur relié au modem 
+Par exemple sur un Raspberry-Pi B
 
     ./remserial -d -p 23000 -s "19200 raw" /dev/ttyACM0 &
     
 Le port du modem étant : /dev/ttyACM0
 
 
-* Sur le serveur (VM) ou Domogik avec le plugin **callerid** tourne:
+* Sur le serveur ou Domogik avec le plugin **callerid** tourne:
+Sur la VM Domogik
 
     ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
     
