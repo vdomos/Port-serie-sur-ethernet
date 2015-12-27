@@ -22,7 +22,7 @@ Lancer le programme comme ceci:
 Le port du modem étant : /dev/ttyACM0
 
 
-* Sur le serveur (VM) ou Domogik avec le plugin **callerid** tourne:
+* Sur le serveur (VM) ou Domogik avec le plugin **callerid** tourne
 
     ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
     
