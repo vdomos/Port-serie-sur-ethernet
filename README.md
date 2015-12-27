@@ -23,7 +23,7 @@ Par exemple sur un Raspberry-Pi B. Le port du modem étant /dev/ttyACM0 et 2300 
 
 * Sur le serveur ou Domogik tourne avec le plugin **callerid**:
 
-Sur la VM Domogik:
+Dans mon exemple sur VM Domogik:
 
     ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
     
