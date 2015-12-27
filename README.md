@@ -15,14 +15,12 @@ Expmple d'utilisation avec un modem série utlisé par le plugin domogik  **call
 
 * Sur le serveur relié au modem par exmple un Raspberry-Pi B
 
-Lancer le programme comme ceci:
-
     ./remserial -d -p 23000 -s "19200 raw" /dev/ttyACM0 &
     
 Le port du modem étant : /dev/ttyACM0
 
 
-* Sur le serveur (VM) ou Domogik avec le plugin **callerid** tourne
+* Sur le serveur (VM) ou Domogik avec le plugin **callerid** tourne:
 
     ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
     
