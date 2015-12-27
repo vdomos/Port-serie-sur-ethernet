@@ -5,7 +5,7 @@ remserial
 ---------
 
 **remserial** est un programme permettant un accés distant au port série  (standard ou USB) d'une machine par ethernet. 
-Le programme est disponble sur http://lpccomp.bc.ca/remserial/
+Le programme est disponible sur http://lpccomp.bc.ca/remserial/
 
 Exemple d'usage
 ---------------
@@ -13,7 +13,7 @@ Exemple d'usage
 Expmple d'utilisation avec un modem série utlisé par le plugin domogik  **callerid** https://github.com/fritz-smh/domogik-plugin-callerid
 
 
-* Sur le sevreur relié au modem par exmple un Raspberry-Pi B
+* Sur le serveur relié au modem par exmple un Raspberry-Pi B
 
 Lancer le programme comme ceci:
 
@@ -28,6 +28,16 @@ Le port du modem étant : /dev/ttyACM0
     
     
 Il suffira de configurer le plugin avec le port **/dev/modem** pour accéder au modem distant.
+
+
+Modification source
+-------------------
+
+Joint les sources modifées:
+
+* Ajout log dans la syslog
+* Ajout droit écriture au groupe (tty) du device série créé
+
 
 
 
