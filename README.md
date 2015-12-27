@@ -28,6 +28,14 @@ Dans mon exemple sur VM Domogik:
     ./remserial -d -r vesta -p 23000 -l /dev/modem /dev/ptmx &
     
     
+* Test du modem
+
+Le "user" utlisant le modem  doit appartenir au groupe 'tty'
+
+    $ picocom -b 19200 -d 8 -f n -p n /dev/modem
+
+* Sous domogik
+
 Il suffira de configurer le plugin avec le port **/dev/modem** pour accéder au modem distant.
 
 
