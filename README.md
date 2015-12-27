@@ -28,7 +28,7 @@ Dans mon exemple sur VM Domogik:
     ./remserial -d -r hostname-ou-@IP_rpi -p 23000 -l /dev/modem /dev/ptmx &
     
     
-* Test du modem
+* Test du modem à partir de la VM
 
 Le "user" utlisant le modem  doit appartenir au groupe 'tty'
 
