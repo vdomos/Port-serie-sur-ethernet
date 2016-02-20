@@ -15,7 +15,7 @@ Expmple d'utilisation avec un modem série utlisé par le plugin domogik  **call
 
 * Sur le serveur relié au modem 
 
-Par exemple sur un Raspberry-Pi B. Le port du modem étant /dev/ttyACM0 et 2300 un port IP libre:
+Par exemple sur un Raspberry-Pi B. Le port du modem étant /dev/ttyACM0 et 23000 un port IP libre:
 
     ./remserial -d -p 23000 -s "19200 raw" /dev/ttyACM0 &
     
